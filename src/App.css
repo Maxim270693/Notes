@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(
+            90deg,
+            rgb(165, 168, 182) 0%,
+            rgb(136, 137, 161) 100%
+    );
+}
+
+.App {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.notes-app {
+}
+
+.notes-list {
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+h1 {
+    margin: 32px 0;
+    color: rgba(114, 12, 255, 1);
+    text-shadow: 1px 2px 7px black;
+    font-size: 35px;
+    text-align: center;
+}
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.notes-form {
+    margin-bottom: 32px;
+}
+
+.notes-wrapper {
+    width: 403px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.notes-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+}
+
+.notes-input::placeholder {
+    color: #e2e2e2;
+}
+
+.notes-text {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.notes-button {
+    padding: 11px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+            90deg,
+            rgba(93, 12, 255, 1) 0%,
+            rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.notes-input.edit {
+    border: 2px solid #149fff;
+}
+
+.notes-button.edit {
+    background: linear-gradient(
+            90deg,
+            rgba(20, 159, 255, 1) 0%,
+            rgba(17, 122, 255, 1) 100%
+    );
+    padding: 16px 22px;
+}
+
+.todo-row {
+    border-radius: 10px;
+    padding: 40px 10px 10px;
+    min-height: 240px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+            90deg,
+            rgba(93, 12, 255, 1) 0%,
+            rgba(155, 0, 250, 1) 100%
+    );
+    word-break: break-all;
+}
+
+.icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icons-blocks {
+    position: relative;
+}
+
+.icons-block {
+    display: flex;
+    position: absolute;
+    left: 70%;
+    bottom: 85%;
+}
+
+.pin-icon-btn {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icons-block-delete {
+    font-size: 17px;
+}
+
+.delete-icon {
+    height: 27px;
+    width: 28px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: red;
+}
+
+.pin-icon {
+    width: 24px;
+    height: 20px;
+    color: white;
+}
+
+.edit-icon {
+    color: #fff;
+}
+
+.search {
+    width: 405px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+}
+
+.searchSpan {
+    width: 15%;
+    border: 1px solid #1C76D2;
+    background: linear-gradient(
+            90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+    padding-top: 4px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+
+.searchInput {
+    width: 85%;
+    border: 3px solid #1C76D2;
+    border-left: none;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+.search-img {
+    cursor: pointer;
+}
+
+.todo-row span {
+    color: tomato;
+    display: contents;
+    font-size: 22px;
+    cursor: pointer;
+}
