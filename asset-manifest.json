@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Notes/static/css/main.15377930.chunk.css",
+    "main.js": "/Notes/static/js/main.4d4d7adc.chunk.js",
+    "main.js.map": "/Notes/static/js/main.4d4d7adc.chunk.js.map",
+    "runtime-main.js": "/Notes/static/js/runtime-main.afbe5293.js",
+    "runtime-main.js.map": "/Notes/static/js/runtime-main.afbe5293.js.map",
+    "static/js/2.29e4fe7d.chunk.js": "/Notes/static/js/2.29e4fe7d.chunk.js",
+    "static/js/2.29e4fe7d.chunk.js.map": "/Notes/static/js/2.29e4fe7d.chunk.js.map",
+    "static/js/3.6d94b8aa.chunk.js": "/Notes/static/js/3.6d94b8aa.chunk.js",
+    "static/js/3.6d94b8aa.chunk.js.map": "/Notes/static/js/3.6d94b8aa.chunk.js.map",
+    "index.html": "/Notes/index.html",
+    "static/css/main.15377930.chunk.css.map": "/Notes/static/css/main.15377930.chunk.css.map",
+    "static/js/2.29e4fe7d.chunk.js.LICENSE.txt": "/Notes/static/js/2.29e4fe7d.chunk.js.LICENSE.txt",
+    "static/media/pinIcon.16f2bd29.png": "/Notes/static/media/pinIcon.16f2bd29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afbe5293.js",
+    "static/js/2.29e4fe7d.chunk.js",
+    "static/css/main.15377930.chunk.css",
+    "static/js/main.4d4d7adc.chunk.js"
+  ]
+}
